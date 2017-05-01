@@ -37,11 +37,11 @@ python get_liden.py 201705010430
 	"features": [{
 		"geometry": {
 			"type": "Point",
-			"coordinates": [lon, lat]
+			"coordinates": [139.762, 35.608]
 		},
 		"type": "Feature",
 		"properties": {
-			"type": 0(cloud discharge) or 1(ground discharge)
+			"type": 0
 		}
 	}]
 }
