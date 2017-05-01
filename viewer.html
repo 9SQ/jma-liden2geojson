@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.1.0/ol.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.1.0/ol.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .map {
+            height: 800px;
+        }
+    </style>
+    <title>Thunderbolt map</title>
+</head>
+<body>
+    <div id="map" class="map"></div>
+    <div id="legend">
+        <div><img src="images/0.png" width="12px"> 雲放電</div>
+        <div><img src="images/1.png" width="12px"> 対地放電(落雷)</div>
+    </div>
+    <script src="js/maprenderer.js"></script>
+</body>
+</html>
