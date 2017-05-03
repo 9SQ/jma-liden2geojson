@@ -18,6 +18,8 @@ Getting lightning information from [JMA High-resolution Precipitation Nowcasts](
 * docs/images/0.png - cloud discharge icon
 * docs/images/1.png - ground discharge icon
 
+[sample web viewer](https://9sq.github.io/jma-liden2geojson/)
+
 ## How to use
 
 get recent information.
